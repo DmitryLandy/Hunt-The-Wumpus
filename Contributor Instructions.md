@@ -15,9 +15,10 @@
 1. Stage files by typing "git add XXXX" where xxxx is file names or "."for all files.
 1. Commit files by typing "git commit -m "xxxxx"" where xxxx inside double quotes is the message.
 1. Push to remote by typing "git push origin XXXXX" where XXXXX is the name of the branch you are on and orgin is the URL for the repository.  If you didn't set up the URL you can just copy the repository URL from step 8 and replace as such:
-	> "git push https://github.com/DmitryLandy/Hunt-The-Wumpus testbranch".  testbranch is the name of the branch you want to add to or create if it doesn't exist.
+	> "git push https://github.com/DmitryLandy/Hunt-The-Wumpus testbranch".  
+	>*testbranch* is the name of the branch you want to add to or create if it doesn't exist.
 1. Login once prompted
-	> **Updates should start uploading to a new branch.
+	> **Updates should start uploading to a new branch.**
 1. Go to Github and Click "Compare & pull request"".  
 1. Add a descripiton of the added features and click "Pull Request".
 1. Assign reviewers by clicking "Reviewers" to the right near the top.
