@@ -11,6 +11,6 @@
 You can now upload files to the repo
 1. upload with:
   - ```git add .```
-  - ```git commit -am "add whatever message you want here"
+  - ```git commit -am "add whatever message you want here"```
   - ```git push -u origin main```
 2. download with ```git pull origin```
