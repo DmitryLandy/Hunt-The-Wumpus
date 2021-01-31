@@ -8,7 +8,7 @@ This project is done as part of a MSSA team competition between different cohort
 - [Phillip Tham](https://github.com/Phillip-M-Tham)
 - [Alex Sanchez](https://github.com/AlexSanchez7x)
 - [Douglas Doniel](https://github.com/Douglas-Doniel)
-- testing
+
 
 ## Rules
 
