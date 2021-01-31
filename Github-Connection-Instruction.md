@@ -5,6 +5,7 @@
 
 1. Open PowerShell or CMD
 1. type: ```git clone https://github.com/DmitryLandy/Hunt-The-Wumpus.git```
+1. That will clone the repo to a new directory named ```Hunt-The-Wumpus```
 1. ```cd Hunt-The-Wumpus```
 
 You can now upload files to the repo
