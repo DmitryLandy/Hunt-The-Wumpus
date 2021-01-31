@@ -7,6 +7,7 @@ This project is done as part of a MSSA team competition between different cohort
 - [Jae Yi](https://github.com/jaehyi)
 - [Phillip Tham](https://github.com/Phillip-M-Tham)
 - [Alex Sanchez](https://github.com/AlexSanchez7x)
+- Test
 
 ## Rules
 
