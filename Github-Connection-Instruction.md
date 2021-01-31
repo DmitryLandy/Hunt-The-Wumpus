@@ -9,3 +9,5 @@
 1. ```cd Hunt-The-Wumpus```
 
 You can now upload files to the repo
+1. upload with ```git push -u origin main```
+2. download with ```git pull origin```
