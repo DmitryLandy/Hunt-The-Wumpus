@@ -11,6 +11,7 @@ This project is done as part of a MSSA team competition between different cohort
 ## Rules
 
 The following are the [rules](https://www.pdp8.net/games/wumpus.shtml) for the game:
+
 YOU ARE A FAMOUS HUNTER DESCENDING DOWN INTO THE CAVES OF DARKNESS,
 LAIR OF THE INFAMOUS MAN-EATING WUMPUS.  YOU ARE EQUIPPED WITH FIVE
 BENT ARROWS, AND ALL YOUR SENSES.  THERE ARE TWENTY CAVES CONNECTED
