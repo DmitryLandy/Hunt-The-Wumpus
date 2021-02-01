@@ -1,9 +1,6 @@
 # Initial Project Outline
 ---
 
-## Parts o# Initial Project Outline
----
-
 ## Parts of the game
 
 **Player**
@@ -22,7 +19,7 @@
 	- Turning on lights
 - Moves only one room than sleeps
 - You smell him one to two rooms away
-- Sucker feet( can not be pick up by bats) 	
+- Sucker feet( cannot be picked up by bats) 	
 
 
 **Bats**
@@ -38,7 +35,12 @@
 
 
 **Bow and Arrow**
-
+- Shot with a ***SHOOT*** button
+- Shooting takes place of a move
+- Ability to be shot thru up to 5 rooms
+- Bent arrows can turn corners less than 98.6 degrees
+- Richochets off walls when given impossible path
+- Terminated by specifying room 0
 
 
 **Map**
