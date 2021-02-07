@@ -10,7 +10,7 @@
 - Trembles when detecting Wumpus
 
 **Wumpus**
-- Losing fact is blundering into his room
+- Losing factor is blundering into his room
 - Normally sleeps and does not move
 - Can be awakened by
 	- Walking in to his room
