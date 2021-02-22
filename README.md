@@ -10,6 +10,7 @@ This project is done as part of a MSSA team competition between different cohort
 - [Douglas Doniel](https://github.com/Douglas-Doniel)
 - [Dakin Werneburg](https://github.com/dakinwerneburg)
 - [Scott Revillar](https://github.com/smrev88)
+- James Simon
 
 
 ## Rules
