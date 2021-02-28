@@ -1,0 +1,58 @@
+Room Class{
+	Bat mybat;
+	Player hunter;
+	Wumpu target;
+	Well hole;
+	private int _roomnum;
+	private int _coordinatex{get;};
+	private int _coordinatey{get;};
+	public bool batExist;
+	public bool hunterExist;
+	public bool wumpuExist;
+	public bool wellExist;
+	
+	//Defualt Constructor
+	Public Room(int x, int y,int id){
+		//SETS new room to specified coordinates with a designated room number
+		//Well object,player object,well object,Wumpu object are all set to null objects at the initialization of the map
+		_coordinatex=x;
+		_coordinatey=y;
+		_roomnum=id;
+	}
+	
+	playerDiesByWumpu(){
+		if hunter coordinates and wumpu coordinates are the same use the wumpu class methods.
+	}
+	playerDiesByWell(){
+		if hunter coordinates and well coordinates are the same use the well class methods.
+	}
+	playerMovesByBat(){
+		if hunter coordinate  and the bat coordinates are the same use the bat class methods.
+	}
+	
+}
+
+Map is a 2D array of type Room
+Room [,] myArena= new Room[totalrows,totalcolumns];
+
+
+
+
+Bats/Pits
+--------
+We should have an name or id for multiple bats and pits ->need to track them
+Can use bools to know object exist in a room
+ 
+ 
+                1        2       3       
+				
+				4     5     6    7
+				
+				9       10      11
+				
+			    12    13   14   15
+				
+				16      17      18
+				
+				    19     20
+
