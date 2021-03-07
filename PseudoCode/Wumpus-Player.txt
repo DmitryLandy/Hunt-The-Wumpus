@@ -1,0 +1,15 @@
+Agenda:
+
+- present the pseudocode
+- Phil explains how it all ties in together.
+- Next Step: actual code
+- 
+
+- Can bat teleport player into a hazard?
+- how far can arrow go?
+- How are room locations stored (coordinates?)
+- how are rooms placed?
+
+
+suggestions:
+instantiate hazards in map
