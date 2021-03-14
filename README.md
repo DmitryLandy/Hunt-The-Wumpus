@@ -17,6 +17,26 @@ This project is done as part of a MSSA team competition between different cohort
 
 The following are the [rules](https://www.pdp8.net/games/wumpus.shtml) for the game:
 
+# New Rules
+
+/*****************************************************
+* RULE CHANGES:
+* 
+* 1. One player, armed with an M4 Carbine with ONE (1) bullet
+* 2. Firearm range is one cavern only, but hits are guaranteed
+* 3. One Wumpus, who does not move, with stench only in the adjacent caverns
+* 4. As many caverns as desired, possibly player configurable, with any number of tunnels (i.e., does not have to be 3)
+* 5. As many bats as desired, with chirps only in the adjacent caverns, possibly player configurable
+* 6. As many pits as desired, with drafts only in the adjacent caverns, possibly player configurable
+* 7. Winning: shooting the Wumpus
+* 8. Losing: falling into a pit, shooting into the wrong cavern, entering the Wumpus cavern without shooting 
+*****************************************************/
+
+
+   WUMPUS.BA     -    A "HUNT THE WUMPUS" GAME
+
+Note: This is a basic game, see BASIC instructions.
+
 YOU ARE A FAMOUS HUNTER DESCENDING DOWN INTO THE CAVES OF DARKNESS,
 LAIR OF THE INFAMOUS MAN-EATING WUMPUS.  YOU ARE EQUIPPED WITH FIVE
 BENT ARROWS, AND ALL YOUR SENSES.  THERE ARE TWENTY CAVES CONNECTED
@@ -69,3 +89,5 @@ IF YOU WISH TO SEE WHICH ROOMS ARE AT THE ENDS OF THE TUNNELS YOU
 MAY TYPE "LIGHTS ON" INSTEAD OF A MOVE.  THIS MAY BE AN UNHEALTHY
 LUXURY HOWEVER BECAUSE THE LIGHT GIVES THE WUMPUS INSOMNIA.  TO
 EXTINGUISH THE LIGHTS SIMPLY TYPE "LIGHTS OFF".
+
+                GOOD LUCK HUNTING!!
