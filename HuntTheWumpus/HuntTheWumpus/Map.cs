@@ -7,7 +7,7 @@ namespace HuntTheWumpus
     public static class Map
     {
         private static Random _random = new Random();
-        public static List<Room> Rooms { get; set; } = new List<Room>(21); // ProvideRooms();
+        public static List<Room> Rooms { get; set; } = new List<Room>(21);
 
         public static void PopulateRooms()
         {
@@ -36,8 +36,6 @@ namespace HuntTheWumpus
 
         public static void GenerateHazard()
         {
-            // TODO:
-            // int index = _random.Next(1, 21);
             Stack<Hazard> hazards = new Stack<Hazard>();
 
             hazards.Push(new Bat());
@@ -55,7 +53,6 @@ namespace HuntTheWumpus
                     Rooms.ElementAt(randomRoomNum).Hazard = hazards.Pop();
                 }
             }
-
         }
     }
 }

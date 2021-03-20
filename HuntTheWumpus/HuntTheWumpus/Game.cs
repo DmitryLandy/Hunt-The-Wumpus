@@ -10,15 +10,18 @@ namespace HuntTheWumpus
             Map.PopulateRooms();
             Map.GenerateHazard();
             #region Testing
-            /* For testing purpose only
+            // For testing purpose only
             foreach (var room in Map.Rooms)
             {
-                room.ConnectedRooms.ForEach(r => Console.Write($"{r} "));
-                Console.WriteLine(room.Hazard);
-                Console.ReadLine();
+                Console.Write($"Room #: {Map.Rooms.IndexOf(room):00}     Connected Rooms: ");
+                room.ConnectedRooms.ForEach(r => Console.Write($"{r:00} "));
+                Console.WriteLine($"     Hazard Present: {room.Hazard}");
             }
-            */
+
+            Console.ReadLine();
+            // The end of testing
             #endregion
+
             // Add additional methods to initialize the game
         }
 
