@@ -10,7 +10,9 @@ namespace HuntTheWumpus
     {
         static void Main(string[] args)
         {
-
+            Game.Start();
+            //Game game = new Game();
+            
 
       
         }

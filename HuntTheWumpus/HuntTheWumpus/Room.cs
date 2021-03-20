@@ -10,7 +10,7 @@ namespace HuntTheWumpus
     {
         public List<int> ConnectedRooms { get; set; } = new List<int>(3);
 
-        public List<Hazard> Hazards { get; set; }
+        public Hazard Hazard { get; set; }
     }
 
    
