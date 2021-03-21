@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace HuntTheWumpus
 {
-    public class Game
+    public static class Game
     {
         public static void Start()
         {
@@ -31,13 +31,27 @@ namespace HuntTheWumpus
 
             foreach (var rm in room.ConnectedRooms)
             {
-                // check for hazard in each of the connected rooms
+                switch (Map.Rooms.ElementAt(rm).Hazard)
+                {
+                    case Wumpus _:
+                        Console.WriteLine("The player smells the stench of Wumpus.");
+                        break;
+                    case Pit _:
+                        Console.WriteLine("The player feels the draft from a pit nearby.");
+                        break;
+                    case Bat _:
+                        Console.WriteLine("The player hears the flapping of a bat's wings.");
+                        break;
+                }
+
+                /* Alternative way to do type checking
                 if (Map.Rooms.ElementAt(rm).Hazard is Wumpus)
                     Console.WriteLine("The player smells the stench of Wumpus.");
                 else if (Map.Rooms.ElementAt(rm).Hazard is Pit)
                     Console.WriteLine("The player feels the draft from a pit nearby.");
-                else
+                else if (Map.Rooms.ElementAt(rm).Hazard is Bat)
                     Console.WriteLine("The player hears the flapping of a bat's wings.");
+                */
             }
         }
 
