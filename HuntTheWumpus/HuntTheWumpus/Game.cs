@@ -27,11 +27,11 @@ namespace HuntTheWumpus
 
         public static void DisplayHazardsNearby(int roomNumber)
         {
-            Room room = Map.Rooms.ElementAt(roomNumber);
+            Room room = Map.Rooms[roomNumber];
 
-            foreach (var rm in room.ConnectedRooms)
+            foreach (var roomNum in room.ConnectedRooms)
             {
-                switch (Map.Rooms.ElementAt(rm).Hazard)
+                switch (Map.Rooms[roomNum].Hazard)
                 {
                     case Wumpus _:
                         Console.WriteLine("The player smells the stench of Wumpus.");

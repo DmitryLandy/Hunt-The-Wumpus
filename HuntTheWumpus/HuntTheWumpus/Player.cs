@@ -13,7 +13,7 @@ namespace HuntTheWumpus
 
         public void ShootAt(int roomNumber)
         {
-            if (Map.Rooms.ElementAt(roomNumber).Hazard is Wumpus)
+            if (Map.Rooms[roomNumber].Hazard is Wumpus)
             {
                 Console.WriteLine("You are a winner! Congratulations!");
             }
@@ -28,7 +28,7 @@ namespace HuntTheWumpus
             // TODO: set the player postion to the new room with roomNumber
             // TODO: display all the hazards
 
-            Room room = Map.Rooms.ElementAt(roomNumber);
+            Room room = Map.Rooms[roomNumber];
 
             if (room.Hazard != null)
                 return room.Hazard;

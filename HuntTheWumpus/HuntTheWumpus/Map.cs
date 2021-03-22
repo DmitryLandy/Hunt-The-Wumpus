@@ -48,9 +48,9 @@ namespace HuntTheWumpus
             while (hazards.Count != 0)
             {
                 int randomRoomNum = _random.Next(1, 21);
-                if (Rooms.ElementAt(randomRoomNum).Hazard == null)
+                if (Rooms[randomRoomNum].Hazard == null)
                 {
-                    Rooms.ElementAt(randomRoomNum).Hazard = hazards.Pop();
+                    Rooms[randomRoomNum].Hazard = hazards.Pop();
                 }
             }
         }
