@@ -1,0 +1,39 @@
+*********************************************************************************
+                             WELCOME TO 'HUNT THE WUMPUS'  
+
+                                       RULES                       
+*********************************************************************************					 
+INTRODUCTION:  THE WUMPUS IS A CREATURE THAT LIVES IN A CAVE THAT HAS 20 ROOMS,
+               AND EACH ROOM IS CONNECTED TO THREE OTHER ROOMS VIA A TUNNEL.  
+               THE PLAYER MUST MOVE THROUGH THE CAVE AND ATTEMPT TO SHOOT THE 
+               WUMPUS WHILE AVOIDING HAZARDS.  
+	
+
+HAZARDS:
+	       BOTTOMLESS PITS 
+			TWO ROOMS HAVE BOTTOMLESS PITS IN THEM.
+			IF YOU GO THERE, YOU RALL INTO THE PITS (& LOSE!)
+	
+	       SUPER BATS
+			THREE OTHER ROOMS HAVE SUPER BATS.  IF YOU GO
+			THERE, A BAT GRABS YOU AND TAKES YOU TO SOME OTHER ROOM
+			AT RANDOM (WHICH MAY BE TROUBLESOME).
+WUMPUS:
+	       THE WUMPUS IS NOT BOTHERED BY HAZARDS (HE HAS SUCKER FEET AND IS 
+               TOO BIG FOR A BAT TO LIFT).  USUALLY HE IS ASLEEP AND WILL 
+               MOVE IF AWAKEN.  IN THIS VERSION, THE WUMPUS DOES NOT MOVE.
+	
+
+YOU:
+	      EACH TURN YOU MAY MOVE OR SHOOT.
+		  MOVE 
+                         EACH ROOM IS CONNECTED TO 3 OTHER ROOMS VIA A TUNNEL.
+		         YOU MAY ONLY MOVE ONE ROOM EACH TURN.  IF YOU MOVE 
+                         INTO A ROOM WITH THE WUMPUS OR BOTTOMLESS PIT YOU 
+                         ARE DEAD. IF YOU MOVE INTO A ROOM WITH A BAT, YOU WILL 
+                         BE PLACED IN A RANDOM ROOM. PRIOR TO EACH MOVE,
+		         PLAYER WILL BE NOTIFIED OF ANY NEARBY HAZARDS.  							   
+		 SHOOT 
+                         YOU ARE PROVIDED AN M4 CARBINE, BUT YOU ONLY HAVE ONE 
+                         BULLET.  IF YOU SHOOT THE WUMPUS, YOU WIN. IF YOU MISS, 
+                         YOU LOOSE. SO CHOOSE WISELY.   

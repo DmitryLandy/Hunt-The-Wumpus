@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HuntTheWumpus
 {
-    class Player
+    public class Player
     {
         public bool IsAlive { get; set; } // up for further debate
         public Room CurrentLocation { get; set; }
@@ -15,25 +12,45 @@ namespace HuntTheWumpus
         {
             if (Map.Rooms[roomNumber].Hazard is Wumpus)
             {
-                Console.WriteLine("You are a winner! Congratulations!");
+                Console.WriteLine("You are a winner! Congratulations! Press any key to continue");
+                Console.ReadKey();
+                Game.Init();
             }
             else
             {
-                Console.WriteLine("You are a loser!  Game over!");
+                
+                Console.WriteLine("You are a loser!  Game over! Press any key to continue");
+                Console.ReadKey();
+                Game.Init();
             }
         }
 
-        public Hazard MoveTo(int roomNumber)
+        public void MoveTo(int roomNumber)
         {
-            // TODO: set the player postion to the new room with roomNumber
-            // TODO: display all the hazards
+            CurrentLocation = Map.Rooms[roomNumber];
+            Hazard hazard = Map.Rooms.ElementAt(roomNumber).Hazard;
 
+<<<<<<< HEAD
+            if (hazard is Bat b)
+            {
+                b.TransportPlayer(this);
+            }
+            else if (hazard is Wumpus)
+            {
+                IsAlive = false;
+            }
+            else if (hazard is Pit)
+            {
+                IsAlive = false;
+            }
+=======
             Room room = Map.Rooms[roomNumber];
 
             if (room.Hazard != null)
                 return room.Hazard;
             else
                 return null;
+>>>>>>> bb99ab727e2742e64eba5cb2d1cfa3f1c94aa753
         }
     }
 }
