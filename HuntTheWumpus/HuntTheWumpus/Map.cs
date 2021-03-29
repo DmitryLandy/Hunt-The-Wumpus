@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace HuntTheWumpus
@@ -11,27 +12,24 @@ namespace HuntTheWumpus
 
         public static void PopulateRooms()
         {
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 0, 0, 0 } }); // Room 0
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 2, 3, 4 } }); // Room 1
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 1, 6, 7 } }); // Room 2
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 1, 8, 17 } }); // Room 3
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 1, 8, 5 } }); // Room 4
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 4, 6, 11 } }); // Room 5
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 2, 5, 9 } }); // Room 6
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 2, 9, 18 } }); // Room 7
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 3, 4, 10 } }); // Room 8
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 6, 7, 12 } }); // Room 9
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 8, 11, 13 } }); // Room 10
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 5, 10, 12 } }); // Room 11
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 9, 11, 14 } }); // Room 12
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 10, 17, 15 } }); // Room 13
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 12, 16, 18 } }); // Room 14
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 13, 16, 19 } }); // Room 15
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 14, 15, 20 } }); // Room 16
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 3, 13, 19 } }); // Room 17
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 7, 14, 20 } }); // Room 18
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 15, 17, 20 } }); // Room 19
-            Rooms.Add(new Room() { ConnectedRooms = new List<int> { 7, 14, 20 } }); // Room 20
+           using(var sr = new StreamReader(@"..\..\Resources\RoomConnections.txt"))
+            {
+                int roomNumber = 0;
+                string line = "";
+                 while((line = sr.ReadLine()) != null)
+                {
+                    string [] rooms = line.Split(',');
+                    Rooms.Add(new Room(roomNumber) { 
+                        ConnectedRooms = new List<int> { 
+                            int.Parse(rooms[0]),
+                            int.Parse(rooms[1]),
+                            int.Parse(rooms[2])
+                        } 
+                    });
+                    roomNumber++;
+                }
+            }
+           
         }
 
         public static void GenerateHazard()

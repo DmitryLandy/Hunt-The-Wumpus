@@ -5,3 +5,10 @@ C:\Users\Jae Yi\Desktop\GitHub Repo\Hunt-The-Wumpus\HuntTheWumpus\HuntTheWumpus\
 C:\Users\Jae Yi\Desktop\GitHub Repo\Hunt-The-Wumpus\HuntTheWumpus\HuntTheWumpus\bin\Debug\HuntTheWumpus.pdb
 C:\Users\Jae Yi\Desktop\GitHub Repo\Hunt-The-Wumpus\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.exe
 C:\Users\Jae Yi\Desktop\GitHub Repo\Hunt-The-Wumpus\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.pdb
+C:\Users\Dakin\MSSA2021\Hunt-The-Wumpus\HuntTheWumpus\HuntTheWumpus\bin\Debug\HuntTheWumpus.exe.config
+C:\Users\Dakin\MSSA2021\Hunt-The-Wumpus\HuntTheWumpus\HuntTheWumpus\bin\Debug\HuntTheWumpus.exe
+C:\Users\Dakin\MSSA2021\Hunt-The-Wumpus\HuntTheWumpus\HuntTheWumpus\bin\Debug\HuntTheWumpus.pdb
+C:\Users\Dakin\MSSA2021\Hunt-The-Wumpus\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.csprojAssemblyReference.cache
+C:\Users\Dakin\MSSA2021\Hunt-The-Wumpus\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.csproj.CoreCompileInputs.cache
+C:\Users\Dakin\MSSA2021\Hunt-The-Wumpus\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.exe
+C:\Users\Dakin\MSSA2021\Hunt-The-Wumpus\HuntTheWumpus\HuntTheWumpus\obj\Debug\HuntTheWumpus.pdb

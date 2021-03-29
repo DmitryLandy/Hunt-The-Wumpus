@@ -10,6 +10,9 @@ namespace HuntTheWumpus
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+            Game.Init();
+=======
             while (true)
             {
                 int menuChoice = Game.menu();
@@ -22,6 +25,7 @@ namespace HuntTheWumpus
             
 
       
+>>>>>>> bb99ab727e2742e64eba5cb2d1cfa3f1c94aa753
         }
     }
 }
